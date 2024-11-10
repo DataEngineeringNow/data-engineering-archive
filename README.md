@@ -14,20 +14,20 @@ The world of data engineering is constantly evolving. This repository aims to co
 
 
 --------------------------------------------------------
-### 1. Data Storage
+### Data Storage
 
 * [Amazon s3](https://aws.amazon.com/pm/serv-s3/)
 * [Google S3](https://cloud.google.com/storage/?hl=en)
 * [Azure blob storage](https://azure.microsoft.com/en-us/products/storage/blobs)
 
 --------------------------------------------------------
-### 2. Data Processing
+### Data Processing
 
 * [Apache Spark](https://spark.apache.org/) - Apache Spark™ is a multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.
 
 
 ---------------------------------------------------------
-### 3. Data Lake House
+### Data Lake House
 
 * [Delta Lake](https://delta.io/) - Delta Lake is an open-source storage framework that enables building a Lakehouse architecture with compute engines including Spark, PrestoDB, Flink, Trino, and Hive and APIs for Scala, Java, Rust, Ruby, and Python.
 
@@ -37,7 +37,7 @@ The world of data engineering is constantly evolving. This repository aims to co
 Iceberg is a high-performance format for huge analytic tables. Iceberg brings the reliability and simplicity of SQL tables to big data, while making it possible for engines like Spark, Trino, Flink, Presto, Hive and Impala to safely work with the same tables, at the same time.
 
 --------------------------------------------------------
-### 4. Data Formats
+### Data Formats
 
 * [Apache Parquet](https://parquet.apache.org/) - Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval.
 * [Apache ORC](https://orc.apache.org/) - The smallest, fastest columnar storage.
