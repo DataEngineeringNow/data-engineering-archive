@@ -6,14 +6,23 @@ The world of data engineering is constantly evolving. This repository aims to co
   <summary>Table of Contents</summary>
 
   1. [Data Storage](#data-storage)
-  2. [Data Processing](#data-processing)
-  3. [Data Lakehouse](#data-lakehouse)
-  4. [Data Formats](#data-formats)
-  5. [Data Streaming](#data-streaming)
-  6. [Data Quality](#data-quality)
-  7. [Orchestration](#orchestration)
-  8. [No Sql](#no-sql)
-  
+  2. [Databases](#databases)
+      - [Relational](#Relational-databases)
+      - [Document](#document-databases)
+      - [Key Value](#key-value-databases)
+      - [Graph](#graph-databases)
+      - [Timeseries](#timeseries-databases)
+  3. [Data Batch Processing](#data-processing)
+  4. [Data Stream Processing](#data-streaming)
+  5. [Data Lakehouse](#data-lakehouse)
+  6. [Data Formats](#data-formats)
+  7. [Data Quality](#data-quality)
+  8. [Orchestration](#orchestration)
+      - [Open Source](#orchestration-open-source)
+      - [Closed Source](#orchestration-closed-source)
+  9. [Data Warehouse](#data-warehouse)
+      - [Realtime data warehouse](#realtime-data-warehouse)
+
 </details>
 
 
@@ -23,6 +32,41 @@ The world of data engineering is constantly evolving. This repository aims to co
 * [Amazon s3](https://aws.amazon.com/pm/serv-s3/) - Object storage built to store and retrieve any amount of data from anywhere.
 * [Google Cloud Storage](https://cloud.google.com/storage/?hl=en) - Google Cloud Storage is a managed service for storing unstructured data.
 * [Azure blob storage](https://azure.microsoft.com/en-us/products/storage/blobs) - Massively scalable and secure object storage for cloud-native workloads, archives, data lakes, high-performance computing, and machine learning.
+
+--------------------------------------------------------
+### Databases
+
+### Relational databases
+
+* [PostgreSQL](https://www.postgresql.org/)
+* [MySQL](https://www.mysql.com/)
+* [MariaDB](https://mariadb.org/)
+  * [MariaDB Galera Cluster](https://mariadb.com/kb/en/galera-cluster/)
+* [Oracle](https://www.oracle.com/in/database/)
+* [IBM Db2](https://www.ibm.com/db2)
+* [SQLite](https://www.sqlite.org/)
+* [GCP Cloud SQL](https://cloud.google.com/sql?hl=en)
+* [GCP Cloud Spanner](https://cloud.google.com/spanner?hl=en)
+* [AWS RDS](https://aws.amazon.com/rds/sqlserver/)
+* [AWS Aurora](https://aws.amazon.com/rds/aurora/)
+* [Azure SQL](https://azure.microsoft.com/en-in/products/azure-sql/database/)
+
+### Key value databases
+* [Redis](https://redis.io/)
+* [AWS DynamoDB](https://aws.amazon.com/dynamodb/)
+* [GCP Bigtable](https://cloud.google.com/bigtable?hl=en)
+
+### Document databases
+* [MongoDB](https://www.mongodb.com/)
+* [Couchbase](https://www.couchbase.com/)
+* [GCP Firestore](https://cloud.google.com/firestore)
+
+### Graph databases
+* [Neo4J](https://neo4j.com/)
+
+### Timeseries databases 
+* [Timescale](https://www.timescale.com/)
+
 
 --------------------------------------------------------
 ### Data Processing
@@ -52,6 +96,8 @@ Open-source table format designed for large-scale analytics. Iceberg brings the 
 
 * [Apache Kafka](https://kafka.apache.org/) - Most popular distributed event streaming platform
 
+* [Apache Storm](https://storm.apache.org/) - Open source distributed realtime computation system.Makes it easy to reliably process unbounded streams of data, doing for realtime processing what Hadoop did for batch processing
+
 --------------------------------------------------------
 ### Data Quality
 
@@ -60,9 +106,25 @@ Open-source table format designed for large-scale analytics. Iceberg brings the 
 --------------------------------------------------------
 ### Orchestration
 
+
+### Orchestration Open Source
+
 * [Apache Airflow](https://airflow.apache.org/) - Open-source platform used to programmatically author, schedule, and monitor workflows.Airflow allows you to define workflows as Directed Acyclic Graphs (DAGs), which specify the sequence of tasks and their dependencies.
 
---------------------------------------------------------
-### No SQL
+### Orchestration Closed Source
 
-* 
+* [Astronomer](https://www.astronomer.io/) - Astro is a unified data platform built on Apache Airflow® that ensures data is delivered on time, securely, and accurately.
+
+
+### Data Warehouse
+
+* [GCP Bigquery](https://cloud.google.com/bigquery?hl=en)
+* [AWS Redshift](https://aws.amazon.com/pm/redshift/)
+* [Azure Synapse Analytics](https://azure.microsoft.com/en-us/products/synapse-analytics)
+* [Snowflake](https://www.snowflake.com/en/data-cloud/workloads/data-warehouse/)
+* [Panoply](https://panoply.io/)
+* [SAP Data warehouse](https://api.sap.com/package/sapdatawarehousecloud/overview)
+
+#### Realtime data warehouse
+* [Druid](https://druid.apache.org/)
+* [Apache Pinot](https://pinot.apache.org/)
