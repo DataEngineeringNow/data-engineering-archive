@@ -22,6 +22,7 @@ The world of data engineering is constantly evolving. This repository aims to co
       - [Closed Source](#orchestration-closed-source)
   9. [Data Warehouse](#data-warehouse)
       - [Realtime data warehouse](#realtime-data-warehouse)
+  10. [Query Engine](#query-engine)
 
 </details>
 
@@ -98,6 +99,7 @@ Open-source table format designed for large-scale analytics. Iceberg brings the 
 
 * [Apache Storm](https://storm.apache.org/) - Open source distributed realtime computation system.Makes it easy to reliably process unbounded streams of data, doing for realtime processing what Hadoop did for batch processing
 
+* [Apache Flink](https://flink.apache.org/)
 --------------------------------------------------------
 ### Data Quality
 
@@ -110,10 +112,19 @@ Open-source table format designed for large-scale analytics. Iceberg brings the 
 ### Orchestration Open Source
 
 * [Apache Airflow](https://airflow.apache.org/) - Open-source platform used to programmatically author, schedule, and monitor workflows.Airflow allows you to define workflows as Directed Acyclic Graphs (DAGs), which specify the sequence of tasks and their dependencies.
+* [Apache oozie](https://oozie.apache.org/)
+* [Azkaban](https://azkaban.github.io/)
 
 ### Orchestration Closed Source
 
 * [Astronomer](https://www.astronomer.io/) - Astro is a unified data platform built on Apache Airflow® that ensures data is delivered on time, securely, and accurately.
+* [Mage](https://www.mage.ai/)
+* [dbt](https://www.getdbt.com/product/what-is-dbt)
+* [Dagster](https://dagster.io/)
+* [Perfect](https://www.prefect.io/)
+* [Hamilton](https://github.com/dagworks-inc/hamilton)
+
+
 
 
 ### Data Warehouse
@@ -121,6 +132,7 @@ Open-source table format designed for large-scale analytics. Iceberg brings the 
 * [GCP Bigquery](https://cloud.google.com/bigquery?hl=en)
 * [AWS Redshift](https://aws.amazon.com/pm/redshift/)
 * [Azure Synapse Analytics](https://azure.microsoft.com/en-us/products/synapse-analytics)
+* [Firebolt](https://www.firebolt.io/)
 * [Snowflake](https://www.snowflake.com/en/data-cloud/workloads/data-warehouse/)
 * [Panoply](https://panoply.io/)
 * [SAP Data warehouse](https://api.sap.com/package/sapdatawarehousecloud/overview)
@@ -128,3 +140,8 @@ Open-source table format designed for large-scale analytics. Iceberg brings the 
 #### Realtime data warehouse
 * [Druid](https://druid.apache.org/)
 * [Apache Pinot](https://pinot.apache.org/)
+
+### Query Engines
+* [Apache Drill](https://drill.apache.org/)
+* [Presto](https://prestodb.io/)
+* [Trino](https://trino.io/)
