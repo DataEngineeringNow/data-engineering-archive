@@ -73,7 +73,7 @@ The world of data engineering is constantly evolving. This repository aims to co
 ### Data Processing
 
 * [Apache Spark](https://spark.apache.org/) - Apache Spark™ is a multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.
-
+* [ibis](https://github.com/ibis-project/ibis)
 
 ---------------------------------------------------------
 ### Data Lakehouse
